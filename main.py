@@ -92,7 +92,7 @@ select
 name,
 mass
 from planets
-where mass <= 7
+where mass <= 1.00
 """, conn1)
 df_mass
 
