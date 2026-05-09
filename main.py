@@ -109,8 +109,8 @@ df_mass
 df_mass_moon = pd.read_sql(""" 
 select *
 from planets
-where num_of_moons >=1.00
-and mass <=1
+where num_of_moons >=1
+and mass < 1.00
 """, conn1)
 df_mass_moon
 
