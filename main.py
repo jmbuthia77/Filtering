@@ -187,7 +187,7 @@ select name,
 age,
 hungry
 from dogs
-where age  between 2 and 7
+where hungry=1 and age  between 2 and 7
 order by name asc
 """, conn2)
 df_hungry_ages
